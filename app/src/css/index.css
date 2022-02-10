@@ -1,0 +1,156 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:'Courier New', Courier, monospace; */
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+
+/* Main started*/
+
+body {
+    background-image: url("https://localhost:44399/wwwroot/images/pattern.png");
+  }
+  
+  .products .product-header{
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .post-img {
+    height: 175px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .category{
+    position: absolute;
+    top: 158px;
+    text-transform: lowercase;
+    color: #ffffff;
+    padding: 3px 10px;
+    right: 7%;
+    border-radius: 10%;
+    background-color: red;
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  
+  .card-title a {
+    color: #222222;
+  }
+  
+  .product-author a {
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .product-author span {
+    font-size: .8rem;
+  }
+  
+  .product-author span, .card-text, .post-meta ul li {
+    color: #777777;
+  }
+  
+  .product-meta {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  
+  .product-author {
+    position: absolute;
+    left: 0;
+  }
+  
+  .price {
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    color: #222222;
+    font-size: 1.2rem;
+  }
+  
+  .product-author a span {
+    color: black;
+  }
+  
+  .post-meta {
+    padding-bottom: 40px;
+  }
+  
+  .post-meta ul {
+    position: relative;
+  }
+  
+  .post-meta ul li {
+    position: absolute;
+  }
+  
+  .post-meta ul li:first-child {
+    left: 0;
+  }
+  
+  .post-meta ul li:last-child {
+    right: 10%;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .post-meta ul li i {
+    color: #1CB3C8;
+  }
+  
+  /*--Hover--*/
+  
+  .card:hover .narrow {
+    display: block;
+    transition: .5s;
+  }
+  
+  .card:hover .btn-eye {
+    display: block;
+    transition: .5s;
+  }
+  
+  .card-title a:hover {
+    color: #1CB3C8;
+    transition: .5s;
+  }
+  
+  .product-author a:hover {
+    color: #1CB3C8;
+    transition: .5s;
+  }
+  
+  @media (max-width: 575.98px) {
+    .post-img {
+        height: 260px;
+    }
+    .narrow {
+        height: 260px;
+    }
+    .category{
+        top: 245px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {}
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {}
+  
+  @media (min-width: 992px) {}
+  
+  @media (min-width: 992px) and (max-width: 1199px) {}
+  
+  @media (min-width: 1200px) {}  
